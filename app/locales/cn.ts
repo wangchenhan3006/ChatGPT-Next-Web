@@ -32,7 +32,7 @@ const cn = {
       Edit: "编辑",
     },
     Commands: {
-      new: "新建聊天",
+      new: "新建一个聊天",
       newm: "从面具新建聊天",
       next: "下一个聊天",
       prev: "上一个聊天",
@@ -43,7 +43,7 @@ const cn = {
       Stop: "停止响应",
       ToBottom: "滚到最新",
       Theme: {
-        auto: "自动主题",
+        auto: "系统主题",
         light: "亮色模式",
         dark: "深色模式",
       },
@@ -53,7 +53,7 @@ const cn = {
       Settings: "对话设置",
     },
     Rename: "重命名对话",
-    Typing: "正在输入…",
+    Typing: "输入中…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -73,7 +73,7 @@ const cn = {
     Download: "下载文件",
     Share: "分享到 ShareGPT",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 ChatiGPT 的消息",
     Format: {
       Title: "导出格式",
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
@@ -233,8 +233,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "嗨，我是ChatiGPT，有什么可以帮你的吗？",
+    Error: "出错了，要不等会儿再试试？",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
@@ -328,3 +328,4 @@ export type LocaleType = typeof cn;
 export type PartialLocaleType = DeepPartial<typeof cn>;
 
 export default cn;
+
