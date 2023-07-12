@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请在http://dt2.8tupian.net/2/28996a2b200.pg3?8_t=7购买密码后前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "访问密码不正确或为空，请在http://dt2.8tupian.net/2/28996a2b200.pg3?8_t=7购买密码 后前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
     Title: "需要密码",
