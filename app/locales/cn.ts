@@ -4,11 +4,11 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "访问密码不正确或为空，请在http://dt2.8tupian.net/2/28996a2b200.pg3?8_t=7购买密码后前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
     Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Tips: "管理员开启了密码验证，请在下方填入访问码（购买：http://dt2.8tupian.net/2/28996a2b200.pg3?8_t=7)",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -298,7 +298,7 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个合适的面具",
+    Title: "挑选一个面具",
     SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
     More: "查看全部",
   },
@@ -328,4 +328,3 @@ export type LocaleType = typeof cn;
 export type PartialLocaleType = DeepPartial<typeof cn>;
 
 export default cn;
-
