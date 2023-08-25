@@ -5,8 +5,8 @@ import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "ChatGPT AI(website: Wang Chenhan)",
-  description: "Based on ChatGPT Next Web, website: Wang Chenhan.",
+  title: "ChatGPT-3.5",
+  description: "Open AI GPT-3.5",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -17,7 +17,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web(website: Wang Chenhan)",
+    title: "Open AI ChatGPT",
     statusBarStyle: "default",
   },
 };
